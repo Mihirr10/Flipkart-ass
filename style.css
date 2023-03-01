@@ -61,7 +61,7 @@ body {
     margin: 10px;
 
 }
-.search:focus-within .RecentSearch {
+.search:focus-within .recentSearch {
     display: block;
 }
 .search button {
@@ -92,7 +92,7 @@ button:focus {
     outline: none;
 }
 
-.RecentSearch {
+.recentSearch {
     display: none;
     position: absolute;
     top: 46px;
@@ -107,24 +107,24 @@ button:focus {
 
 }
 
-.RecentSearch-List {
+.recentSearch-List {
     display: flex;
     font-size: 15px;
 
 
 }
 
-.RecentSearch-List i {
+.recentSearch-List i {
     color: rgb(121, 115, 115);
     font-size: 18px;
 }
 
-.RecentSearch-List p {
+.recentSearch-List p {
     padding-left: 15px;
     margin-top: -3px;
 }
 
-.DiscoverMore {
+  .discoverMore{
     padding-left: 16px;
     font-size: 10px;
     letter-spacing: 1px;
@@ -149,13 +149,13 @@ button:focus {
     cursor: pointer;
     text-align: center;
 }
-.loginBtn:hover .HoverLogin {
+.loginBtn:hover .hoverLogin {
     display: flex;
 }
 
 
 
-.HoverLogin {
+.hoverLogin {
     position: absolute;
     top: 61px;
     height: 385px;
@@ -185,18 +185,18 @@ button:focus {
     top: -20px;
 
 }
-.triangle-up-login:hover .HoverLogin {
+.triangle-up-login:hover .hoverLogin {
     display: flex;
 }
 
-.Newuser {
+.newuser {
     width: 100%;
     display: flex;
     justify-content: space-between;
     font-size: 15px;
 }
 
-.Newuser a {
+.newuser a {
     color: #2874f0;
 }
 
@@ -225,7 +225,7 @@ button:focus {
     background-color: #f0f0f0;
 }
 
-.Navlink {
+.navlink {
     font-size: 16px;
     letter-spacing: 0.1px;
     color: #ffffff;
@@ -236,17 +236,17 @@ button:focus {
 
 }
 
-.Navlink:hover {
+.navlink:hover {
     color: #ffffff;
     text-decoration: none;
 }
 
-.Navlink img {
+.navlink img {
     margin-top: -3px;
     margin-right: 5px;
 }
 
-.HoverMore {
+.hoverMore {
     position: absolute;
     top: 61px;
     height: 220px;
@@ -307,7 +307,7 @@ button:focus {
     color: #ffffff;
 }
 
-.angledownIcon:hover .HoverMore {
+.angledownIcon:hover .hoverMore {
     display: flex;
 }
 
